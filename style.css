@@ -10,13 +10,16 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-left: 30px;
+    margin-right: 60px;
+
   }
   
   .search-input {
     padding: 10px;
     border: none;
     border-radius: 5px 0 0 5px;
-    width: 70%;
+    width: 50%;
   }
   
   .search-button {
@@ -47,4 +50,108 @@ body {
     .search-button {
       border-radius: 5px;
     }
+  }
+  .parent{
+    display: flex;
+    border-radius: 30px;
+  }
+  nav{
+    margin-top: 10px
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    text-align: left;
+  }
+  nav ul li{
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 50px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0056b3;
+    transition: color 0.3s;
+  }
+  a:hover{
+    color: #0a3696;
+  }
+  nav{
+    text-align: center;
+  }
+  .put{
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 30px;
+    color: #0056b3;
+    margin-left: 30px;
+  }
+  .image-store{
+    display: flex;
+    border-radius: 30px;
+  }
+  div{
+    justify-content: center;
+    padding: 10px;
+    margin-left: 20px;
+
+  }
+  img{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    border-radius: 15px;
+  }
+  img:hover{
+    background-color: black;
+  }
+  button{
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 45px;
+    
+  }
+  button:hover{
+    background-color: darkblue;
+    border: none;
+  }
+  p{
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+  }
+  textarea{
+    display: block;
+    width: 90%;
+    height: 200px;
+    border: 2px solid #14213d;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing:border-box;
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+    resize: none;
+    max-width:800px;
+    line-height:2;
+    margin:0 auto;
+  }
+  .button{
+  padding: 16px 20px;
+margin: 32px;
+font-size: 16px;
+font-weight: bold;
+background-color: #0a3696;
+color: #fff;
+border: none;
+border-radius: 8px;
+margin-left: 600px;
   }
