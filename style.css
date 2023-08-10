@@ -146,7 +146,7 @@ body {
     margin:0 auto;
   }
   .button{
-  padding: 16px 20px;
+  padding: 17px 20px;
   margin: 32px;
   font-size: 16px;
   font-weight: bold;
@@ -156,6 +156,13 @@ body {
   border-radius: 8px;
   margin-left: 600px;
   }
+  input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
   .conact{
     border: none;
     width: 60%;
@@ -163,7 +170,8 @@ body {
     border-radius: 10px;
   }
   form{
-    background-color: rgb(204, 199, 190);
+    background-color: white;
+    border-radius: 15px;
     align-items: center;
     padding: 50px 26px;
     margin: 20px 500px;
